@@ -1,0 +1,303 @@
+﻿a {
+    cursor: pointer;
+}
+
+.help-block {
+    font-size: 12px;
+}
+
+.spark-table thead {
+    background-color: #555;
+}
+
+.spark-table thead tr {
+    border-bottom: 1px solid #333;
+}
+
+.spark-table tr td, .spark-table tr th, .spark-table tr .spark-table-heading__piece {
+    -webkit-transition-duration: 100ms;
+    transition-duration: 100ms;
+    -webkit-transition-property: border, color;
+    transition-property: border, color;
+    -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+    transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+}
+.spark-table .spark-table-heading__piece, .spark-table th {
+    border-right: 1px solid #333;
+    color: #fff;
+    cursor: default;
+    font-size: 12px;
+    font-size: 1.0833333333rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    -webkit-transition: color 100ms cubic-bezier(0.86, 0, 0.07, 1);
+    transition: color 100ms cubic-bezier(0.86, 0, 0.07, 1);
+    white-space: nowrap;
+}
+.spark-table .spark-table-heading__piece, .spark-table th, .spark-table td {
+    box-sizing: border-box;
+    height: 60px;
+    height: 5rem;
+    padding-left: 24px;
+    padding-left: 2rem;
+    padding-right: 24px;
+    padding-right: 2rem;
+    position: relative;
+    vertical-align: middle;
+}
+.spark-table__checkbox {
+    line-height: 1;
+    width: 12px;
+    width: 1rem;
+}
+caption, th, td {
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+.spark-table tr td:first-child, .spark-table tr th:first-child, .spark-table tr .spark-table-heading__piece:first-child {
+    border-left: 1px solid transparent;
+}
+
+.spark-table tr td, .spark-table tr th, .spark-table tr .spark-table-heading__piece {
+    -webkit-transition-duration: 100ms;
+    transition-duration: 100ms;
+    -webkit-transition-property: border, color;
+    transition-property: border, color;
+    -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+    transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+}
+.spark-table .spark-table-heading__piece, .spark-table th {
+    border-right: 1px solid #333;
+    color: #fff;
+    cursor: default;
+    font-size: 12px;
+    font-size: 1.0833333333rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    -webkit-transition: color 100ms cubic-bezier(0.86, 0, 0.07, 1);
+    transition: color 100ms cubic-bezier(0.86, 0, 0.07, 1);
+    white-space: nowrap;
+}
+.spark-table .spark-table-heading__piece, .spark-table th, .spark-table td {
+    box-sizing: border-box;
+    height: 60px;
+    height: 5rem;
+    padding-left: 24px;
+    padding-left: 2rem;
+    padding-right: 24px;
+    padding-right: 2rem;
+    position: relative;
+    vertical-align: middle;
+}
+.spark-table__checkbox {
+    line-height: 1;
+    width: 12px;
+    width: 1rem;
+}
+caption, th, td {
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle;
+}
+th {
+    font-weight: bold;
+    text-align: -internal-center;
+}
+
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.spark-table tbody {
+    position: relative;
+}
+
+.spark-table tbody tr:first-child:not(:hover):not(.active) {
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.1) 0, transparent 1rem);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0, transparent 1rem);
+}
+.spark-table tbody tr {
+    cursor: pointer;
+    -webkit-transition-duration: 100ms;
+    transition-duration: 100ms;
+    -webkit-transition-property: background;
+    transition-property: background;
+}
+
+.spark-table tr {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    -webkit-transition-duration: 100ms;
+    transition-duration: 100ms;
+    -webkit-transition-property: background-color, border, color;
+    transition-property: background-color, border, color;
+    -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+    transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.spark-table tr td:first-child, .spark-table tr th:first-child, .spark-table tr .spark-table-heading__piece:first-child {
+    border-left: 1px solid transparent;
+}
+
+.spark-table tr td, .spark-table tr th, .spark-table tr .spark-table-heading__piece {
+    -webkit-transition-duration: 100ms;
+    transition-duration: 100ms;
+    -webkit-transition-property: border, color;
+    transition-property: border, color;
+    -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+    transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+}
+.spark-table .spark-table-heading__piece, .spark-table th, .spark-table td {
+    box-sizing: border-box;
+    height: 60px;
+    height: 5rem;
+    padding-left: 24px;
+    padding-left: 2rem;
+    padding-right: 24px;
+    padding-right: 2rem;
+    position: relative;
+    vertical-align: middle;
+}
+.spark-table__checkbox {
+    line-height: 1;
+    width: 12px;
+    width: 1rem;
+}
+caption, th, td {
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+.spark-table tr td, .spark-table tr th, .spark-table tr .spark-table-heading__piece {
+    -webkit-transition-duration: 100ms;
+    transition-duration: 100ms;
+    -webkit-transition-property: border, color;
+    transition-property: border, color;
+    -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+    transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.spark-table .spark-table-heading__piece, .spark-table th, .spark-table td {
+    box-sizing: border-box;
+    height: 60px;
+    height: 5rem;
+    padding-left: 24px;
+    padding-left: 2rem;
+    padding-right: 24px;
+    padding-right: 2rem;
+    position: relative;
+    vertical-align: middle;
+}
+.spark-text-center {
+    text-align: center;
+}
+caption, th, td {
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+.spark-table tr td:first-child, .spark-table tr th:first-child, .spark-table tr .spark-table-heading__piece:first-child {
+    border-left: 1px solid transparent;
+}
+
+.spark-table tr td, .spark-table tr th, .spark-table tr .spark-table-heading__piece {
+    -webkit-transition-duration: 100ms;
+    transition-duration: 100ms;
+    -webkit-transition-property: border, color;
+    transition-property: border, color;
+    -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+    transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+}
+.spark-table .spark-table-heading__piece, .spark-table th {
+    border-right: 1px solid #333;
+    color: #fff;
+    cursor: default;
+    font-size: 12px;
+    font-size: 1.0833333333rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    -webkit-transition: color 100ms cubic-bezier(0.86, 0, 0.07, 1);
+    transition: color 100ms cubic-bezier(0.86, 0, 0.07, 1);
+    white-space: nowrap;
+}
+.spark-table .spark-table-heading__piece, .spark-table th, .spark-table td {
+    box-sizing: border-box;
+    height: 60px;
+    height: 5rem;
+    padding-left: 24px;
+    padding-left: 2rem;
+    padding-right: 24px;
+    padding-right: 2rem;
+    position: relative;
+    vertical-align: middle;
+}
+.spark-table__checkbox {
+    line-height: 1;
+    width: 12px;
+    width: 1rem;
+}
+.caption, th, td {
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+.spark-table table {
+    background-color: #fff;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    margin-bottom: 60px;
+    margin-bottom: 5rem;
+    overflow: hidden;
+    width: 100%;
+}
+
+.spark-btn--sm {
+    padding: 9px 27px;
+    padding: .75rem 2.25rem;
+}
+
+.spark-btn {
+    background-color: #23826f;
+    border: 1px solid #195e51;
+    border-radius: 0.25rem;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-size: 1.3333333333rem;
+    font-family: Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 700;
+    line-height: 1em;
+    overflow: hidden;
+    padding: 21px 39px;
+    padding: 1.75rem 3.25rem;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-transition-duration: 100ms;
+    transition-duration: 100ms;
+    -webkit-transition-property: background-color, color, border-color, box-shadow;
+    transition-property: background-color, color, border-color, box-shadow;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+    white-space: nowrap;
+}

@@ -1,0 +1,45 @@
+﻿<div class="col-md-6 col-md-offset-3">
+    <section class="spark-table col-xs-12">
+        <div class="spark-table__scroll">
+        <table role="grid">
+          <thead>
+            <tr>
+              <th class="spark-text-center">                
+              </th>
+              <th data-sort="asc">
+                Name
+              </th>
+              <th data-sort>
+                Start/End Date
+              </th>
+              <th data-sort>
+                 Room No
+              </th>
+              <th class="spark-text-center">
+                Confirmation No
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let reservation of reservations">
+                <td>
+                    <img src={{reservation.imageUrl}}/>
+                </td>
+                <td>
+                    {{reservation.guestName}}
+                </td>
+                <td>
+                    {{reservation.startDate}} - {{reservation.endDate}}
+                </td>
+                <td>
+                    {{reservation.roomNo}}
+                </td>
+                <td class="spark-table__actions spark-text-center">
+                    {{reservation.confirmNo}}
+                </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+</div>
